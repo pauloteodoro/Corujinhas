@@ -2,8 +2,17 @@ using System;
 
 namespace AppDomain.Entities
 {
-    public class Receita
+    public class Receita : EntidadeDominio
     {
+        public Receita(int receitaId, string nome, string modoPreparo, DateTime tempoPreparo, int rendimento)
+        {
+            ReceitaId = receitaId;
+            Nome = nome;
+            ModoPreparo = modoPreparo;
+            TempoPreparo = tempoPreparo;
+            Rendimento = rendimento;
+        }
+
         public int ReceitaId { get; private set; }
         public string Nome { get; private set; }
         public string ModoPreparo { get; private set; }
