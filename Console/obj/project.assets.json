@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "AppDomain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AppDomain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppDomain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AppDomain/1.0.0": {
+      "type": "project",
+      "path": "../AppDomain/AppDomain.csproj",
+      "msbuildProject": "../AppDomain/AppDomain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "AppDomain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/teodoro/.nuget/packages/": {},
@@ -35,7 +54,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj": {
+              "projectPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

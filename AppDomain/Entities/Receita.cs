@@ -1,3 +1,5 @@
+using System;
+
 namespace AppDomain.Entities
 {
     public class Receita
@@ -20,7 +22,7 @@ namespace AppDomain.Entities
 
         public void AlterarStatus()
         {
-            
+
         }
     }
 }

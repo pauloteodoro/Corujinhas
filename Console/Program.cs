@@ -1,4 +1,5 @@
 ﻿using System;
+using AppDomain.Entities;
 
 namespace Console
 {
@@ -6,7 +7,9 @@ namespace Console
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hello World!");
+
+
+
         }
     }
 }

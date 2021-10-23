@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Console/1.0.0": {
-        "dependencies": {
-          "AppDomain": "1.0.0"
-        },
-        "runtime": {
-          "Console.dll": {}
-        }
-      },
       "AppDomain/1.0.0": {
         "runtime": {
           "AppDomain.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "Console/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "AppDomain/1.0.0": {
       "type": "project",
       "serviceable": false,

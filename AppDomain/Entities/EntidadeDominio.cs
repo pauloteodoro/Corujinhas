@@ -1,9 +1,11 @@
+using System;
+
 namespace AppDomain.Entities
 {
-    public abstracts  class EntidadeDominio
+    public abstract class EntidadeDominio
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
-        public DateTime DataCriacao {get; set;} = DateTime.Now;       
-        
+        public Guid Id { get; private set; } = Guid.NewGuid();
+        public DateTime DataCriacao { get; private set; } = DateTime.Now;
+
     }
 }
