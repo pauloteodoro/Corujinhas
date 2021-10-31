@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace AppDomain.Entities
 {
     public class TipoUsuario : EntidadeDominio
@@ -14,5 +16,7 @@ namespace AppDomain.Entities
         public string Nome { get; private set; }
         public string Descricao { get; private set; }
         public bool StatusTipoUsuario { get; private set; }
+
+        public virtual ICollection<Usuario> Usuarios { get; set; }
     }
 }

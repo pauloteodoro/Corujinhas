@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace AppDomain.Entities
 {
     public class Usuario : EntidadeDominio
@@ -13,6 +15,12 @@ namespace AppDomain.Entities
         public string cpf { get; private set; }
         public bool Status { get; private set; }
 
+        public virtual ICollection<TipoUsuario> TiposUsuarios { get; set; }
+
+        public void AlterarStatusUsuario()
+        {
+            Status = !Status;
+        }
 
     }
 }

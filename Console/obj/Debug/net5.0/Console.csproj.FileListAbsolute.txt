@@ -16,4 +16,7 @@
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/obj/Debug/net5.0/Console.genruntimeconfig.cache
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/bin/Debug/net5.0/AppDomain.dll
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/bin/Debug/net5.0/AppDomain.pdb
+/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/bin/Debug/net5.0/FluentValidation.dll
+/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/bin/Debug/net5.0/FluentValidation.AspNetCore.dll
+/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/bin/Debug/net5.0/FluentValidation.DependencyInjectionExtensions.dll
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/obj/Debug/net5.0/Console.csproj.CopyComplete

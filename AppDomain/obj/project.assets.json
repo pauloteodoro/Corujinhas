@@ -48,19 +48,6 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
-      },
-      "AppDomain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "FluentValidation.AspNetCore": "10.3.4"
-        },
-        "compile": {
-          "bin/placeholder/AppDomain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppDomain.dll": {}
-        }
       }
     }
   },
@@ -127,16 +114,11 @@
         "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
-    },
-    "AppDomain/1.0.0": {
-      "type": "project",
-      "path": "../AppDomain/AppDomain.csproj",
-      "msbuildProject": "../AppDomain/AppDomain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AppDomain >= 1.0.0"
+      "FluentValidation.AspNetCore >= 10.3.4"
     ]
   },
   "packageFolders": {
@@ -146,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/Console.csproj",
-      "projectName": "Console",
-      "projectPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/Console.csproj",
+      "projectUniqueName": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj",
+      "projectName": "AppDomain",
+      "projectPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj",
       "packagesPath": "/home/teodoro/.nuget/packages/",
-      "outputPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/obj/",
+      "outputPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -167,11 +149,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj": {
-              "projectPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -183,6 +161,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[10.3.4, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

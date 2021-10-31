@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RsnEZREQ3d6YwdeId+e3j9u04y0CTVj6R4MAe7XhxDQhuK1Sv7CcRaxL6p8o1Lh0V7gaA3Byc6dqApc270PJsQ==",
+  "success": true,
+  "projectFilePath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/Console/Console.csproj",
+  "expectedPackageFiles": [
+    "/home/teodoro/.nuget/packages/fluentvalidation/10.3.4/fluentvalidation.10.3.4.nupkg.sha512",
+    "/home/teodoro/.nuget/packages/fluentvalidation.aspnetcore/10.3.4/fluentvalidation.aspnetcore.10.3.4.nupkg.sha512",
+    "/home/teodoro/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.3.4/fluentvalidation.dependencyinjectionextensions.10.3.4.nupkg.sha512",
+    "/home/teodoro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
