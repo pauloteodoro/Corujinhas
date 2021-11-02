@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDomain", "AppDomain\AppDomain.csproj", "{AF77C797-0AAB-4A27-ABC0-52019E5423DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositorio", "Repositorio\Repositorio.csproj", "{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{AF77C797-0AAB-4A27-ABC0-52019E5423DE}.Release|x64.Build.0 = Release|Any CPU
 		{AF77C797-0AAB-4A27-ABC0-52019E5423DE}.Release|x86.ActiveCfg = Release|Any CPU
 		{AF77C797-0AAB-4A27-ABC0-52019E5423DE}.Release|x86.Build.0 = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|x64.Build.0 = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|x64.ActiveCfg = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|x64.Build.0 = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A55B9C4-E742-4FDA-AF7A-7A5ACA3ABA73}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
