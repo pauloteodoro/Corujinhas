@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppDomain\AppDomain.csproj" />
+    <ProjectReference Include="..\Repositorio\Repositorio.csproj" />
   </ItemGroup>
 
 

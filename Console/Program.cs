@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AppDomain;
 using AppDomain.Entities;
 using AppDomain.Validators;
+using Repositorio;
 
 namespace Console
 {
@@ -11,6 +12,7 @@ namespace Console
         static void Main(string[] args)
         {
 
+            
             EmailSend email = new EmailSend();
 
             List<Usuario> ListaUsuarios = new List<Usuario>();
