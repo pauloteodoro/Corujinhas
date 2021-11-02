@@ -6,14 +6,14 @@ namespace AppDomain.Entities
     {
         public Receita(int receitaId, string nome, string modoPreparo, DateTime tempoPreparo, int rendimento)
         {
-            ReceitaId = receitaId;
+            ReceitaID = receitaId;
             Nome = nome;
             ModoPreparo = modoPreparo;
             TempoPreparo = tempoPreparo;
             Rendimento = rendimento;
         }
 
-        public int ReceitaId { get; private set; }
+        public int ReceitaID { get; private set; }
         public string Nome { get; private set; }
         public string ModoPreparo { get; private set; }
         public DateTime TempoPreparo { get; private set; }

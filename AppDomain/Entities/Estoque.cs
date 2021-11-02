@@ -21,13 +21,6 @@ namespace AppDomain.Entities
         public Guid UnidadeMedidaID { get; set; }
         public virtual UnidadeMedida UnidadeMedida { get; set; }
 
-        public void EnviarEmaial()
-        {
-            if (QuantidadeAtual < QuantidadeMinima)
-            {
-                EmailSend email = new EmailSend();
-                email.EnviarEmail("paulo.teodoro.dev@gmail.com", "teste");
-            }
-        }
+
     }
 }
