@@ -9,8 +9,8 @@ namespace AppDomain.Entities
             Id = Guid.NewGuid();
             DataCriacao = DateTime.Now;
         }
-        public Guid Id { get; private set; }
-        public DateTime DataCriacao { get; private set; }
+        public Guid Id { get; set; }
+        public DateTime DataCriacao { get; set; }
 
     }
 }

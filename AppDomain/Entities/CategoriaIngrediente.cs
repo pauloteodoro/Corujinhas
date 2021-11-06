@@ -15,7 +15,7 @@ namespace AppDomain.Entities
         public string Descricao { get; private set; }
         public bool StatusCategoria { get; private set; }
 
-        public virtual ICollection<Ingrediente> Ingredientes { get; set; }
+        public ICollection<Ingrediente> Ingredientes { get; set; }
 
         public void AlterarStatusDescricao()
         {

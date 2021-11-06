@@ -4,15 +4,15 @@ namespace AppDomain.Entities
 {
     public class Ingrediente_Receita : EntidadeDominio
     {
-        public Ingrediente_Receita(Guid receitaID, Guid ingredienteID, int quantidade)
+        public Ingrediente_Receita(Receita receita, Ingrediente ingrediente, int quantidade)
         {
-            ReceitaID = receitaID;
-            IngredienteID = ingredienteID;
+            Receita = receita;
+            Ingrediente = ingrediente;
             Quantidade = quantidade;
         }
 
-        public Guid ReceitaID { get; private set; }
-        public Guid IngredienteID { get; private set; }
+        public Receita Receita { get; private set; }
+        public Ingrediente Ingrediente { get; private set; }
 
         public int Quantidade { get; private set; }
 

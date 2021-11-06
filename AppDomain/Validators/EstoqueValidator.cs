@@ -17,10 +17,10 @@ namespace AppDomain.Validators
             RuleFor(x => x.QuantidadeMinima)
                 .NotEmpty().WithMessage("Informe quantidade miníma do produto");
 
-            RuleFor(x => x.UnidadeMedidaID)
+            RuleFor(x => x.UnidadeMedida)
                 .NotEmpty().WithMessage("Unidade de medida obrigatória");
 
-            RuleFor(x => x.IngredienteID)
+            RuleFor(x => x.Ingrediente)
                 .NotEmpty().WithMessage("Ingrediente obrigatório");
 
         }

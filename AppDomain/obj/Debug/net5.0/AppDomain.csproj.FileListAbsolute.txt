@@ -10,3 +10,15 @@
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/obj/Debug/net5.0/AppDomain.dll
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/obj/Debug/net5.0/ref/AppDomain.dll
 /home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/obj/Debug/net5.0/AppDomain.pdb
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\bin\Debug\net5.0\AppDomain.deps.json
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\bin\Debug\net5.0\AppDomain.dll
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\bin\Debug\net5.0\ref\AppDomain.dll
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\bin\Debug\net5.0\AppDomain.pdb
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.csproj.AssemblyReference.cache
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.AssemblyInfoInputs.cache
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.AssemblyInfo.cs
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.csproj.CoreCompileInputs.cache
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.dll
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\ref\AppDomain.dll
+C:\Users\Andressa Silva\Documents\ProjetoRestaurante\Corujinhas\AppDomain\obj\Debug\net5.0\AppDomain.pdb

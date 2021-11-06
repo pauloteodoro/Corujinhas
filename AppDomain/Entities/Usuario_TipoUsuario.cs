@@ -4,14 +4,14 @@ namespace AppDomain.Entities
 {
     public class Usuario_TipoUsuario : EntidadeDominio
     {
-        public Usuario_TipoUsuario(Guid usuarioID, Guid tipoUsuarioID)
+        public Usuario_TipoUsuario(Usuario usuario, TipoUsuario tipoUsuario)
         {
-            UsuarioID = usuarioID;
-            TipoUsuarioID = tipoUsuarioID;
+            Usuario = usuario;
+            TipoUsuario = tipoUsuario;
         }
 
-        public Guid UsuarioID { get; private set; }
-        public Guid TipoUsuarioID { get; private set; }
+        public Usuario Usuario { get; private set; }
+        public TipoUsuario TipoUsuario { get; private set; }
 
         public bool Status { get; private set; }
 
