@@ -12,7 +12,7 @@ namespace AppDomain.Validators
                 .NotEmpty().WithMessage("Informe nome do usuário.")
                 .Length(3, 100).WithMessage("O nome do usuário deve ter no mínimo 3 caracteres e no máximo 100 caracteres");
 
-            RuleFor(x => x.cpf)
+            RuleFor(x => x.Cpf)
                 .NotEmpty().WithMessage("Informe o CPF")
                 .Must(x => CPFIsValid(x)).WithMessage("CPF inválido");
 

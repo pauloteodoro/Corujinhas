@@ -16,10 +16,8 @@ namespace AppDomain.Entities
         public Decimal QuantidadeMinima { get; private set; }
         public Decimal QuantidadeAtual { get; private set; }
 
-        public Guid IngredienteID { get; set; }
-        public virtual Ingrediente Ingrediente { get; set; }
-        public Guid UnidadeMedidaID { get; set; }
-        public virtual UnidadeMedida UnidadeMedida { get; set; }
+        public Ingrediente Ingrediente { get; set; }
+        public UnidadeMedida UnidadeMedida { get; set; }
 
 
     }

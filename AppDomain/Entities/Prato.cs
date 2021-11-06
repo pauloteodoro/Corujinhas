@@ -14,8 +14,7 @@ namespace AppDomain.Entities
         public string Nome { get; private set; }
         public decimal Preco { get; private set; }
         public bool Ativo { get; private set; }
-        public Guid ReceitaID { get; set; }
-        public virtual Receita Receita { get; set; }
+        public Receita Receita { get; set; }
 
         public void AlterarStatusPrato()
         {

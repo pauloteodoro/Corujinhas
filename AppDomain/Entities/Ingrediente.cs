@@ -12,8 +12,6 @@ namespace AppDomain.Entities
 
         public string Nome { get; private set; }
         public bool Status { get; private set; }
-
-        public Guid CategoriaID { get; set; }
         public CategoriaIngrediente CategoriaIngrediente { get; set; }
 
         public void AlterarStatusIngrediente()

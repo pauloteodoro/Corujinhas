@@ -17,6 +17,6 @@ namespace AppDomain.Entities
         public string Descricao { get; private set; }
         public bool StatusTipoUsuario { get; private set; }
 
-        public virtual ICollection<Usuario> Usuarios { get; set; }
+        public ICollection<Usuario> Usuarios { get; set; }
     }
 }

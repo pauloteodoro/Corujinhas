@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj": {}
+    "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {}
   },
   "projects": {
-    "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj": {
+    "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
         "projectName": "AppDomain",
-        "projectPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/AppDomain.csproj",
-        "packagesPath": "/home/teodoro/.nuget/packages/",
-        "outputPath": "/home/teodoro/Desktop/Corujinhas/SaborDoBrasil/AppDomain/obj/",
+        "projectPath": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
+        "packagesPath": "C:\\Users\\Andressa Silva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/teodoro/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Andressa Silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
