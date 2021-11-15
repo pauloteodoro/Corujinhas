@@ -25,7 +25,7 @@ namespace Console
 
             //email.EnviarEmail("paulo.teodoro.dev@gmail.com", "teste");
             email.EnviarEmail("devbrofficial@gmail.com", "teste");
-            ListaUsuarios.ExibirUsuario();
+            ListaUsuarios.ExibirUsuarios();
             ListaUsuarios.BuscarUsuario("581.303.123-05");
 
         }

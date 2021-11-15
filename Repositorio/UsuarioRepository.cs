@@ -14,7 +14,7 @@ namespace Repositorio
             _usuarios = new List<Usuario>();
         }
 
-        public void ExibirUsuario()
+        public void ExibirUsuarios()
         {
             foreach(Usuario usuario in _usuarios)
             {
