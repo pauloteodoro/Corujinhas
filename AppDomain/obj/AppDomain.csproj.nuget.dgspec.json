@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {}
+    "c:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {
+    "c:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
+        "projectUniqueName": "c:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
         "projectName": "AppDomain",
-        "projectPath": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
+        "projectPath": "c:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\AppDomain.csproj",
         "packagesPath": "C:\\Users\\Andressa Silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\obj\\",
+        "outputPath": "c:\\Users\\Andressa Silva\\Documents\\ProjetoRestaurante\\Corujinhas\\AppDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
