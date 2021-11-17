@@ -14,7 +14,7 @@ namespace AppDomain.Entities
         public string Codigo { get; private set; }
         public string Nome { get; private set; }
         public bool Status { get; private set; }
-        public virtual ICollection<Estoque> Estoques { get; set; }
+        public ICollection<Estoque> Estoques { get; set; }
 
 
         public void AtivarStatus()

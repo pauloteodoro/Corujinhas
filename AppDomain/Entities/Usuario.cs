@@ -7,15 +7,15 @@ namespace AppDomain.Entities
         public Usuario(string nome, string cpf)
         {
             Nome = nome;
-            this.cpf = cpf;
+            this.Cpf = cpf;
             Status = true;
         }
 
         public string Nome { get; private set; }
-        public string cpf { get; private set; }
+        public string Cpf { get; private set; }
         public bool Status { get; private set; }
 
-        public virtual ICollection<TipoUsuario> TiposUsuarios { get; set; }
+        public ICollection<TipoUsuario> TiposUsuarios { get; set; }
 
         public void AlterarStatusUsuario()
         {
