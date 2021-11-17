@@ -15,7 +15,7 @@ namespace AppDomain.Entities
         public string Cpf { get; private set; }
         public bool Status { get; private set; }
 
-        //public ICollection<TipoUsuario> TiposUsuarios { get; set; }
+        public ICollection<TipoUsuario> TiposUsuarios { get; set; }
 
         public void AlterarStatusUsuario()
         {

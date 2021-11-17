@@ -8,10 +8,5 @@ namespace AppDomain.Entities
 
         public DateTime DataVisualização { get; private set; }
 
-        public void cadastrarLog()
-        {
-
-        }
-
     }
 }

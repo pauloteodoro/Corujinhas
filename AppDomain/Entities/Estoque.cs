@@ -19,6 +19,10 @@ namespace AppDomain.Entities
         public Ingrediente Ingrediente { get; set; }
         public UnidadeMedida UnidadeMedida { get; set; }
 
+        public void VerificaDesperdicio()
+        {
+            
+        }
 
     }
 }
